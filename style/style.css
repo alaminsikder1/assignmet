@@ -89,6 +89,7 @@ p {
 
 .my-failures-right {
     width: 50%;
+    
 }
 
 h2 {
@@ -99,6 +100,8 @@ h2 {
 .my-failures-right ul li{
     list-style: none;
     margin-bottom: 12px;
+    margin-left:-40px;
+    
 }
 
 .my-failures-right ul li i{
