@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+header {
+    background-image: url(/images/banner/banner1.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    margin-left: 230px;
+
+}
+
+.right {
+    width: 50%;
+    text-align: right;
+    margin-right: 230px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.btn{
+    width: 160px;
+    height: 64px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+
+.btn-contuct {
+    width: 160px;
+    height: 64px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.my-failures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 230px;
+}
+
+.my-failures-left {
+    width: 50%;
+}
+
+.my-failures-left img {
+    height: 400px;
+    width: 400;
+    border-radius: 50%;
+
+}
+
+
+.my-failures-right {
+    width: 50%;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.my-failures-right ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.my-failures-right ul li i{
+    color: #16D887;
+    margin-right: 8px;
+}
+/* here is my plan css  */
+
+section.my-plans {
+    margin: 50px 230px;
+}
+
+.my-plans-item {
+    display: flex;
+    text-align: center;
+    gap: 10%;
+    margin-top: 60px;
+    
+}
+
+.my-plans h2 {
+    text-align: center;
+}
+
+.box h3 {
+    font-size: 26px;
+    margin-top: 14px;
+}
+
+.box h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #737272;
+    margin-top: 8px;
+}
+/* call now section */
+
+.call-now {
+    background-image:  linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%) ,url(/images/watch.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    border-radius: 8px;
+    margin: 100px 0;
+    margin: 130px 230px;
+}
+
+section.call-now  h2 {
+    color: #ffffff;
+    margin-bottom: -10px;
+}
+
+/* footer section */
+
+footer {
+    background-color: #151414;
+    padding: 100px 230px;
+    display: flex;
+}
+
+.footer-left h2 {
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.footer-left p {
+    width: 55%;
+    color: #ffffff;
+}
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.social img {
+    width: 35px;
+    margin-right: 8px;
+}
+
+.from h3 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    background: transparent;
+    padding: 18px 100px 18px 18px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    
+}
